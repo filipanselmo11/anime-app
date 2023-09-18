@@ -1,0 +1,93 @@
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #353e48;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#search-container {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/708/846/337/anime-demon-slayer-kimetsu-no-yaiba-tanjirou-kamado-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 290px;
+    padding: 50px;
+    text-align: center;
+    margin-top: -3px;
+}
+
+#search-container h1 {
+    color: #fff;
+}
+
+#animes-container {
+    padding: 50px;
+}
+
+#animes-container h2 {
+    margin-bottom: 10px;
+}
+
+#animes-container .subtitle {
+    color: rgb(14, 14, 58);
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#cards-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+/* #cards-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} */
+
+.card .card-title {
+    color: rgb(32, 22, 72);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cards-participants {
+    font-size: 14px;
+    color: #ccc;
+}
+
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
